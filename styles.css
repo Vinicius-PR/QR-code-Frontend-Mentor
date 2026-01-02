@@ -52,11 +52,14 @@ body {
   font-size: 1.375rem;
   margin-bottom: 1rem;
   font-weight: bold;
+  line-height: 120%;
 }
 
 .qr-paragraph {
   color: var(--grayishBlue);
   font-size: 0.9375rem;
+  line-height: 140%;
+  letter-spacing: 0.2px;
 }
 
 @media (max-width: 320px) {

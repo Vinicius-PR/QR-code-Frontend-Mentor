@@ -4,6 +4,10 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ## overview
 
+### What I learned
+
+This challenge was easy. However, I had to pay attention to keeping the styles consistent with the design. I also used semantic tags such as main, header, and footer to avoid accessibility issues.
+
 ### Screenshot
 
 ![My Solution to the challenge](./screenshot_solution.png)
