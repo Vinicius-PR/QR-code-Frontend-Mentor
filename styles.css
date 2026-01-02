@@ -35,8 +35,9 @@ body {
   border-radius: 8px;
 }
 
-.qr-container h2 {
+.qr-container h1 {
   color: var(--darkBlue);
+  font-size: 1.5rem;
 }
 
 .qr-container p {
