@@ -17,11 +17,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .qr-container {
-  width: 20rem;
+  max-width: 20rem;
   background-color: var(--white);
   padding: 1rem 1rem 2.5rem 1rem;
   border-radius: 20px;
@@ -32,6 +32,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.qr-content header {
+  height: 288px;
 }
 
 .qr-img {
@@ -53,4 +57,10 @@ body {
 .qr-paragraph {
   color: var(--grayishBlue);
   font-size: 0.9375rem;
+}
+
+@media (max-width: 320px) {
+  .qr-content header {
+    height: auto; 
+  }
 }
